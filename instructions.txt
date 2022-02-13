@@ -1,0 +1,56 @@
+Back
+
+Formatif - Préparation TP1
+Due February 11, 2022 1:00 PM
+Instructions
+Vous concevez un jeu pour console. Il s'agit d'un combat entre 2 magiciens. 1 des magiciens est contrôlé par le joueur et l'autre par l'ordinateur.
+
+Les acteurs
+Il y a 2 sorts d'attaque et 2 sorts de défense.
+Défense
+Guérison : Le sort de défense qui fait du dommage positif redonne des points de vie au magicien. Le magicien ne peut pas avoir plus de 100 points de vie.
+Protection : Le sort de défense qui fait du dommage négatif ajoute des points au bouclier du magicien. Le bouclier ne peut pas avoir plus de 50 points d'absoption.
+Attaque
+Incinérateur :  Le sort d'attaque qui fait du dommage positif affecte d'abord le bouclier, puis les points de vie
+Foudre : Le sort d'attaque qui fait du dommage nég1atif ignore le bouclier
+Un magicien commence avec
+50 points de vie
+50 points de mana
+Un bouclier de 0 points de vie. Le bouclier ne peut pas devenir négatif
+Un bâton qui lui est propre. Si le magicien meurt, sont bâton disparaît avec lui.
+Un bâton 
+Reçoit un des deux sort d'attaque et un des deux sort de défense aléatoirement lors de la cération
+Son nom est composé du nom du sort d'attaque, le lien "de", puis le nom du sort de défense (Exemple : Foudre de protection)
+Le jeux
+Il y a un magicien pour le joueur et un pour l'ordinateur
+À chaque tour on détermine aléatoirement si c'est le joueur ou l'ordinateur qui commence
+Chaque magicien peut 
+Lancer un sort pour 10 points de mana. S'il n'a pas assez de mana, il peut seulement changer de bâton.
+Changer de bâton. Il récupère ses 50 points de mana, son ancien bâton est détruit et il en a un nouveau.
+La partie est finie lorsqu'un des deux magiciens n'a plus de points de vie
+Structure
+Le diagramme est exporté et remis en format .png avec ce travail
+La partie est contrôlée par le fichier principal tp1. 
+Le fichier utilitaires.h contient une fonction pour générer un nombre aléatoire. Elle prend en paramètre un max et un min. Elle retourne le nombre aléatoire. Vous pouvez retrouver les instructions nécessaires parmi les exemples placés sur Github
+Le code complet est dans un réprtoire public nommé "formatif 1"
+Pas besoin de l'exécutable, il sera généré pendant la correction
+Instructions
+En se basant sur les fichiers et l'énoncé fourni, créer le diagramme des classes nécessaires à la réalisation du jeu.
+1 pt : Les classes
+1 pt : Les attributs et leurs types
+1pt  : Les méthodes et leurs signatures
+1pt  : Les relations et les cardinalités
+1pt  : Cohérence du diagramme, respect des principes de la conception orientée objet
+Implémenter le jeu
+1pt  : Implémentation des classes
+1pt  : Encapsulation correcte et sécuritaire
+1pt  : Méthodes simples et efficaces
+2pts : Fonctionnement du jeu 
+1pt : Documenter le code
+My work
+
+Attach
+
+New
+Points
+10 points possible
