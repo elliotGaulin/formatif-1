@@ -1,2 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ClassDiagram /> 
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access" MembersFormat="FullSignature">
+  <Comment CommentText="1 &lt;----- 1">
+    <Position X="11.375" Y="2.74" Height="0.323" Width="0.752" />
+  </Comment>
+  <Class Name="Baton">
+    <Position X="8.75" Y="1.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>QACAEABAAAAAQAAgAAAAIAAAAgIAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Baton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Magicien">
+    <Position X="12.25" Y="1.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAgAAAAACAABAECAgBAoAAAAICAAQBAAAA=</HashCode>
+      <FileName>Magicien.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -56,6 +56,7 @@ int main()
 		}
 		else
 		{
+			std::cout << "L'ordinateur commence !\n";
 			passerTourJoueur = 0;
 		}
 
